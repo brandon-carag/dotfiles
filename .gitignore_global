@@ -1,0 +1,9 @@
+*.pry_history
+*.rdb
+*.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.vscode
+node_modules/
+public/packs/
+# bin/
