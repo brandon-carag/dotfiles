@@ -6,11 +6,17 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-sensible'
 Plug 'junegunn/seoul256.vim'
 
+" Seamless navigation between vim and tmux splits
+Plug 'christoomey/vim-tmux-navigator'
+
 " with vim-plug
 Plug 'https://github.com/Alok/notational-fzf-vim'
 
 " fzf vim plugin
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+
+" CtrlP Fuzzy File Finder
+Plug 'ctrlpvim/ctrlp.vim'
 
 
 " List ends here. Plugins become visible to Vim after this call.
